@@ -104,7 +104,7 @@ nav a {
     text-align: center;
 }
 
-.dsvomie-btn, .dsmovie-btn:hover {
+.dsmovie-btn, .dsmovie-btn:hover {
 
     width: 180px;
     height: 40px;
@@ -124,10 +124,6 @@ nav a {
     max-width: 480px;
 }
 
-.dsmovie-form {
-    width: 100%;
-} 
-
 .dsmovie-form-description {
     background-color: var(--white);
     padding: 20px;
@@ -139,11 +135,13 @@ nav a {
 
 .dsmovie-form-group {
     margin-bottom: 20px;
+    width: 450px;
 }
 
 .dsmovie-form-group label {
     font-size: 12px;
     color: var(--text-light-gray);
+    
 }
 
 .dsmovie-form-description h3 {
